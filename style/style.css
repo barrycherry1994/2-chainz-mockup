@@ -430,7 +430,7 @@ footer ul {
 .navbar-toggler {
     background: white;
     color: red;
-    background-image: url(/icons/navigate-arrows.svg);
+    background-image: url(../icons/navigate-arrows.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30px;
