@@ -1,0 +1,633 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background:#030a19;
+    background: linear-gradient(#030319, #060635);
+}
+a{
+    color: white;
+}
+/*Containers*/
+.first-container {
+    background-image: url(../images/hero-slide11.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+.secondary-container {
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+.third-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 2px;
+}
+.fourth-container {
+    width: 100%;
+    background: url(../images/smoky-chainz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.final-container {
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*---------------------End---------------------*/
+/*------------insise first container-----------*/
+.first-container h1 {
+    color:white;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3.125em;
+    padding: 70px 0 10px 70px;
+}
+.first-container p{
+    text-align: center;
+    margin: 0 0 20px;
+    
+}
+.first-container a,
+.icon {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+/*    border: 1px solid red;*/
+    background: #1a2942;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: outset;   
+}
+/*---------------------End---------------------*/
+/*------------insise second container-----------*/
+
+.secondary-container img {
+    width:100%;
+    padding: 40px 40px 0px;
+}
+.secondary-container h3 {
+    font-family: sans-serif;
+    color: darkgoldenrod;
+    letter-spacing: 5px; 
+    margin: 5px;
+}
+.secondary-container h1 {
+    margin: 0;
+    font-family:'Abril Fatface', cursive;
+    margin-bottom: 10px;
+}
+.secondary-container ul {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.secondary-container li {
+    list-style: none;
+    display: flex;
+    margin:  2px;
+}
+/*---------------------End---------------------*/
+/*------------inside third container-----------*/
+.third-container h1 {
+    color:darkgoldenrod;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+.news{
+    height:100px;
+}
+
+    
+
+.blue-border {
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(19, 39, 94,0.8);
+}
+
+.message {
+    margin: 5px 0;
+}
+
+.news a {
+    color:white;
+}
+
+.message:hover {
+    color:darkgoldenrod;
+    transition: .3s;
+}
+.read-more {
+    font-size: .5em;
+    margin: 5px;
+    color:#274f91;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.view {
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+/*    border: 1px solid red;*/
+    background: #1a2942;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: outset;
+}
+
+.view a {
+    text-decoration: none;
+    padding: 10px;    
+}
+/*---------------------End---------------------*/
+
+/*------------inside fourth container-----------*/
+
+.tour-dates,
+.tour-section{
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.tour-dates h1 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 20px;
+    padding-bottom: 0;
+    color:darkgoldenrod;
+    display: block;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+}
+
+.tour-section span {
+    color: darkgoldenrod;
+}
+.dates {
+    margin-bottom: 0;
+}
+.arena {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.city-state {
+    margin: 0;
+}
+.ticket {
+    display: inline-block;
+    letter-spacing: 1px;
+    background: rgba(26, 41, 66,0.8);
+    border-style: outset;
+    border-width: thin;
+}
+
+.ticket a {
+    display: block;
+    text-decoration: none;
+    padding:10px;
+}
+
+.ticket a:hover {
+    color: darkgoldenrod;
+    transition: .5s
+}
+/*---------------------End---------------------*/
+
+/*------------inside final container-----------*/
+.final-container h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+    letter-spacing: 5px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: darkgoldenrod;
+    padding: 15px 60px 0;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    outline-style: none;
+}
+input::placeholder {
+  color: lightgray;
+  text-transform: uppercase;  
+}
+
+.final-container p {
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.subscribe {
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+
+.twochainz-check p {
+    margin: 5px 0 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.privacy-policy {
+    color: lightgray;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.submit {
+    color: white;
+    display: inline-block;
+    background: #13243f;
+    border-style: outset;
+    border-width: 2px;
+    margin: 0;
+}
+
+.submit a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.submit a:hover {
+    color: darkgoldenrod;
+    transition: .5s;
+}
+/*-----------------------------End---------------------------*/
+footer {
+    background: black;
+    padding: 20px;
+    
+}
+footer p {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+}
+footer ul {
+    display: flex;
+    align-content: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.footer-logos {
+    padding: 0;
+}
+.footer-logos li {
+    list-style: none;
+    margin: 10px;
+}
+.footer-logos img {
+    width: 20px;
+    height: 20px;
+}
+/*---------------------News Boxes---------------------*/
+.bounce-video {
+    position: relative;
+    background-image: url(../images/bounce-video.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 25%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.dabbin-sweater {
+    position: relative;
+    background-image: url(../images/dabbin-santa.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 25%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.twochainz-hempcon {
+    position: relative;
+    background-image: url(../images/2chainz-hempcon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 25%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.new-music {
+    position: relative;
+    background-image: url(../images/2chainz-bet.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 25%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.gq-2chainz {
+    position: relative;
+    background-image: url(../images/gq-2chainz.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 25%;
+    position: relative;
+    margin-bottom: 40px;
+}
+/*---------------------Icons & buttons---------------------*/
+.icon {
+    padding: 5px;
+    display: inline-block;
+    background: #13243f;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.icon img {
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+    width: 25px; 
+    height: 25px;
+   
+}
+.icon li {
+    float: right;
+    padding: 2px;
+}
+.icon a {
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+/*---------------------End---------------------*/
+
+/*navbar bootstrap area*/
+.navbar,
+.navbar-expand-lg,
+.navbar-light bg-dark {
+    background: rgba(0,0,0,.5);
+}
+
+.navbar-brand {
+    color:white;
+    font-family: 'Special Elite', cursive;
+}
+.navbar-brand:hover {
+    color:darkgoldenrod;
+    transition: .5s;
+}
+
+.navbar-toggler {
+    background: white;
+    color: red;
+    background-image: url(/icons/navigate-arrows.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: darkgoldenrod;
+    transition: .5s;
+}
+
+/*----------------------End------------------------*/
+
+/*===================================================
+                Media Queries
+=====================================================*/
+
+@media(min-width:768px){
+/*----------------------TABLET MEDIA QUERY------------------------*/
+    
+/*------------insise first container-----------*/
+    .first-container {
+        padding-bottom: 50px;
+    }
+    .first-container h1{
+        font-size: 4em;
+        padding-left: 300px;
+        margin-top:0px
+    }
+/*---------------------End---------------------*/   
+/*------------insise second container-----------*/
+    .afro-dread {
+        width: 50%;
+        float: left;
+    }
+    .secondary-container h3 {
+       display: inline-block;
+        padding-top:30px;
+    }
+    .secondary-container h1 {
+        display: block;
+        margin: 10px;
+    }
+    .secondary-container ul {
+    display:inline;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    }
+    .secondary-container li {
+    list-style: none;
+    display: inline-block;
+    margin:  2px;
+    }
+/*---------------------End---------------------*/   
+/*------------insise third container-----------*/
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .news-div {
+        width: 100%;
+    }
+    
+ /*---------------------End---------------------*/   
+/*----------------------Media End-------------------------------*/    
+}
+/*----------------------Desktop MEDIA QUERY------------------------*/
+
+@media(min-width:1024px){
+/*------------insise first container-----------*/
+    .first-container {
+        margin-top: -55px;
+    }
+    .first-container h1{
+        font-size: 6em;
+        padding-top: 200px;
+        padding-left: 600px;
+        margin-bottom: 50px
+    }  
+/*----------------------Media End-------------------------------*/    
+/*------------insise second container-----------*/
+    .afro-dread {
+        width: 40%;
+        float: left;
+        padding-left: 50px
+    }
+    .secondary-container h3 {
+       display: inline-block;
+        padding-top:30px;
+    }
+/*---------------------- End-------------------------------*/    
+/*------------insise third container-----------*/
+.bounce-video {
+    background-image: url(../images/bounce-video.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0;
+    padding: 15%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.dabbin-sweater {
+    background-image: url(../images/dabbin-santa.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0;
+    padding: 15%;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.twochainz-hempcon {
+    background-image: url(../images/2chainz-hempcon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0%;
+    padding: 15%;
+    position: relative;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.new-music {
+    background-image: url(../images/2chainz-bet.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0%;
+    padding: 15%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.gq-2chainz {
+    background-image: url(../images/gq-2chainz.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0%;
+    padding: 15%;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+/*----------------------Media End-------------------------------*/    
+ /*------------insise fourth container-----------*/
+.fourth-container {
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.tour-dates,
+.tour-section {
+        display: block;
+        margin-left: 500px;
+    }
+    .tour-section h1,
+    .tour-section h2 {
+        font-size: 1em;
+    } 
+/*----------------------Media End-------------------------------*/    
+/*----------------------footer-------------------------------*/    
+    footer {
+        padding: 0;
+    }
+    footer p{
+        display: inline-block;
+        margin: 10px 10px 0;
+    }
+    footer ul {
+        display: inline-flex;
+        float:right;
+    }
+/*----------------------Media End-------------------------------*/    
+   
+}
+
+
+/*---------------------Clerfix---------------------*/
+
+/*Clearfix*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
