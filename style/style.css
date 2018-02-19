@@ -8,6 +8,10 @@ body {
 a{
     color: white;
 }
+
+img{
+    max-width: 100%;
+}
 /*Containers*/
 .first-container {
     background-image: url(../images/hero-slide11.jpg);
